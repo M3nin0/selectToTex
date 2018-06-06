@@ -6,6 +6,6 @@ Biblioteca para a conversão de resultados de consultas no PostgreSQL em tabelas
 
 O uso do `selectToTex` é bastante simples, veja o exemplo abaixo:
 
-![alt text](img/usage.PNG)
+![alt text](https://github.com/M3nin0/selectToTex/blob/master/img/usage.png)
 
 Além deste é necessário inserir suas informações de conexão com o banco de dados.
