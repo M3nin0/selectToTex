@@ -2,6 +2,12 @@
 
 Biblioteca para a conversão de resultados de consultas no PostgreSQL em tabelas Latex
 
+### Configurando o ambiente
+
+Para utilizar a biblioteca utilize o comando:
+
+- <code>pip install -r requirements.txt</code>
+
 ### Exemplo de uso
 
 O uso do `selectToTex` é bastante simples, veja o exemplo abaixo:
