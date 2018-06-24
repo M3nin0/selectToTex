@@ -6,8 +6,6 @@ class Totex:
     """Classe para transformar resultados de selects em Latex
     """
 
-    db: Database = None
-
     def __init__(self):
         self.db = Database().get_connection()
 
@@ -16,14 +14,14 @@ class Totex:
         :param: command_list: Lista com os selects que deverão ser utilizados
         :param: output_file: Caminho/Nome do arquivo a ser salvo com as tabelas
         """
-        
+
         # Criando arquivo para armazenar resultados
-        file = open('result.tex', 'w')
+        file = open(output_file, 'w')
         file.write('Tabelas geradas pelo SelectToTex\n\n\n')
 
         # Criando o loop para percorrer os comandos da lista
         for command in command_list:
-            
+
             self.db.execute(command)
             # Recupera o resultado e já transforma ele em String
             r = str(pd.DataFrame(self.db.fetchall()).to_latex())
