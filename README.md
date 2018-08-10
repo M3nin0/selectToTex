@@ -1,10 +1,10 @@
 ## selectToTex :slot_machine:
 
-Biblioteca para a conversão de resultados de consultas no PostgreSQL em tabelas Latex
+Script para a conversão de resultados de consultas no PostgreSQL em tabelas Latex
 
 ### Configurando o ambiente
 
-Para utilizar a biblioteca utilize o comando:
+Para utilizar utilize o comando:
 
 - <code>pip install -r requirements.txt</code>
 
